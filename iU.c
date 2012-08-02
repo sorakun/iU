@@ -1,35 +1,7 @@
 /*
  ** iU Calculating Language **
- **      Main iU File       **
- **   ISSATSO  University   **
- *****************************
- * features:
- *  > supporting priorities.
- *  > supporting constants.
- *
- * todo:
- *  > supporting funtions.
- *  > supporting variables.
- *
- * How does it work:
- *                                                  Ui Calculating Language
- *                            _____________________________________________________________________
- *                           |                                                                     |
- *     _________             |                                                                     |
- *    |         \            |          (1)                    (2)                     (3)         |
- *    |  1+2*3  |            |      ____________        _________________        ________________  |                         __________
- *    |         |            |     |            |      |      prase      |      |      prase     | |                        |          |
- *    |         |     ==>    | --->|iU_tokenizer| ---> | table generator | ---> | tree generator | |  ==> Evaluate Node =>  |     7    |
- *    |_________|            |     | ___________|      |_________________|      |________________| |                        |__________|
- *                           |                                                         +           |                          (output)
- *       string              |      |1|+|2|*|3|             |1|2|3|                  /   \         |
- *                           |                              |+|*|                   1     *        |
- *                           |                                                          /   \      |
- *                           |                                                         2     3     |
- *                           |_____________________________________________________________________|
- *
- *
- */
+*/
+
 
 #include <stdio.h>
 #include <ctype.h>
