@@ -1,0 +1,29 @@
+Welcome to iU calculating language,
+I created iU for a university project, where I had to use complex data types such as trees or 
+linked lists.
+iU is a very extensible calculating language, I say "Calculating language" because I wanted it to be 
+used for large calulating tasks. 
+
+iU features are the follwing:
+  - Respect of mathematical calculating rules.
+  - Understandable source code, for learning purposes.
+  - Easy extentable.
+  - Supports user variables. (per stack)
+  - Support functions and constants which are defined within the source code.
+  
+iU Limits:
+  - Week error handeling. 
+  - User defined variables vanish once the thread ends.
+  - Functions should be defined before compiling  iU. (static functions)
+
+Notes:
+  - The "=" operators returns as value the left operand (1 + y = 3+1, res = 5)
+  - The "-","sin" and "cos" operators works in unary mode.
+  - exp is not a function, but a variable, so you should do something like "e^3" using power operation.
+  
+I used iU after in a plotting application, giving it the functions as a string and it draws the graph 
+of the expression in a range between (-300, 300) top and bottom. 
+It was very easy, in the input there should be a variable which is "x", any other variable is unknown,
+and then in a loop statement, between (-300, 300) I define "x" as the loop current value, and then I
+get the image of that point. This is just an example of the use of iU, i can not provide the source 
+code because I lost it.
