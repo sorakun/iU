@@ -21,3 +21,4 @@ Notes:
   - The "-","sin" and "cos" operators works in unary mode.
   - exp is not a function, but a variable, so you should do something like "e^3" using power operation.
 
+For more informations: http://sorakun.legtux.org/iu-how-does-it-work/
