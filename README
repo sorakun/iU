@@ -2,7 +2,7 @@ Welcome to iU calculating language,
 I created iU for a university project, where I had to use complex data types such as trees or linked lists.
 iU is a very extensible calculating language, I say "Calculating language" because I wanted it to be used for large calulating tasks. 
 
-iU features are the follwing:
+iU features are the following:
   - Respect of mathematical calculating rules.
   - Understandable source code, for learning purposes.
   - Easy extentable.
